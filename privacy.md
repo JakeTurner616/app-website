@@ -1,6 +1,3 @@
-Privacy Policy
-==============
-
 Just to be clear, when I: jake@serverboi.org, use 'we/our,' I'm referring to myself as the sole representative of serverboi.org.
 
 On behalf of serverboi.org, we take your privacy very seriously. This Privacy Policy outlines how we collect, use, and protect your information.
