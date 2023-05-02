@@ -2,6 +2,11 @@
 layout: default
 ---
 
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/JakeTurner616/JakeTurner616.github.io/main/assets/img/banner.png" alt="banner"/>
+</p>
+
 # Real Art AI
 
 ## Description
@@ -31,8 +36,3 @@ layout: default
 
 ## IOS support
 Real Art AI can only be installed on the [Google Play Store](https://play.google.com/store/apps/details?id=org.serverboi.RealArtAI) as of now. The app is written with cross-platform code, and will be ported over to IOS in the near future.
-
-
----
-
-[Privacy policy](./privacy.md).
