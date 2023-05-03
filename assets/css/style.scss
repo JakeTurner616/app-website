@@ -23,3 +23,16 @@ header h1 {
   color: #fafafa;
   letter-spacing: -1px;
 }
+hr {
+  background: #fff url("../images/hr.png") 50% 0 no-repeat;
+  background-position-x: 50%;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: auto;
+  background-origin: padding-box;
+  background-clip: border-box;
+}
+img {
+  border: inset grey 2px;
+}
