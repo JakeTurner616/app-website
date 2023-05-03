@@ -1,0 +1,25 @@
+---
+---
+
+@import "{{ site.theme }}";
+#container {
+  min-height: 595px;
+  background-color: #1b1b1b;
+}
+body {
+  font-family: helvetica neue,Helvetica,Arial,serif;
+  font-size: 1em;
+  line-height: 1.5;
+  color: rgb(175, 176, 177);
+}
+a {
+  color: rgb(138, 180, 248);
+}
+a:hover {
+  color: #de6b18;
+}
+h5, h4, h3, h2, h1 {
+  color: #cccccc;
+  font-weight: 400;
+  font-family: Lato,microsoft yahei,sans-serif;
+}
