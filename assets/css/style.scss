@@ -3,3 +3,23 @@
 
 @import "{{ site.theme }}";
 @import url("https://fonts.googleapis.com/css?family=Chivo:900");
+#container {
+  min-height: 595px;
+  background: none;
+  background-color: #1b1b1b;
+}
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  font-size: 1em;
+  line-height: 1.5;
+  color: #fafafa;
+  text-shadow: none;
+}
+header h1 {
+  font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.2;
+  color: #fafafa;
+  letter-spacing: -1px;
+}
