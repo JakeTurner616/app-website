@@ -1,63 +1,87 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset='utf-8'>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/print.css' | relative_url }}" media="print">
-    <!--[if lt IE 9]>
+<html lang="{{ site.lang | default: " en-US" }}">
+
+<head>
+  <meta charset='utf-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <link rel="stylesheet" type="text/css" href="{{ '/assets/css/print.css' | relative_url }}" media="print">
+  <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     
     <![endif]-->
 
-    {% seo %}
-    {% include head-custom.html %}
-    
-  </head>
-  <body>
-    <div id="left-section">
-      <div class="marvel-device note8">
-        <div class="inner"></div>
-        <div class="overflow">
-            <div class="shadow"></div>
-        </div>
-        <div class="speaker"></div>
-        <div class="sensors"></div>
-        <div class="more-sensors"></div>
-        <div class="sleep"></div>
-        <div class="volume"></div>
-        <div class="camera"></div>
-        <div class="screen">
-          <img src="https://github.com/JakeTurner616/app-website/blob/main/assets/Screenshot_1682742769.png?raw=true" width="400" height="822"/>
-            <!-- Content goes here -->
-        </div>
-    </div>
-    </div>
-    <div id="container">
-      <div class="inner">
+  {% seo %}
+  {% include head-custom.html %}
 
-        <header>
-          <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-          <h2>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-        </header>
+</head>
 
-        <hr>
-        <section id="main_content">
-          
-          {{ content }}
+<body>
 
-        </section>
-                
-        <footer>
-          {% if site.github.is_project_page %}
-            {{ site.title | default: site.github.repository_name }} is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a><br>
-          {% endif %}
-          <a href="/privacy.html">Privacy Policy</a>
-        </footer>
-
+  <div id="left-section">
+    <div class="marvel-device note8">
+      <div class="inner"></div>
+      <div class="overflow">
+        <div class="shadow"></div>
+      </div>
+      <div class="speaker"></div>
+      <div class="sensors"></div>
+      <div class="more-sensors"></div>
+      <div class="sleep"></div>
+      <div class="volume"></div>
+      <div class="camera"></div>
+      <div class="screen">
+        <img src="https://files.serverboi.org/api/files/cat?path=%2FScreenshot_1682742769.png&share=img&size=1920"
+          width="400" height="822" />
+        <!-- Content goes here -->
       </div>
     </div>
-    
-  </body>
+  </div>
+  <script>
+    if (window.location.pathname === '/privacy.html') {
+      // Get the selector
+      const selector = document.querySelector('#left-section');
+      // Modify the CSS to hide the selector
+      selector.style.display = 'none';
+      selector.style.visibility = 'hidden';
+    }
+
+  </script>
+  <noscript>
+    <style>
+      #left-section {
+        display: none;
+        visibility: hidden;
+      }
+    </style>
+  </noscript>
+  <div id="container">
+    <div class="inner">
+
+      <header>
+        <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+        <h2>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      </header>
+
+      <hr>
+      <section id="main_content">
+
+        {{ content }}
+
+      </section>
+
+      <footer>
+        {% if site.github.is_project_page %}
+        {{ site.title | default: site.github.repository_name }} is maintained by <a
+          href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a><br>
+        {% endif %}
+        <a href="/privacy.html">Privacy Policy</a>
+      </footer>
+
+    </div>
+  </div>
+
+</body>
+
 </html>
