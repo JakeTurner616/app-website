@@ -19,6 +19,7 @@
 
 <body>
 
+  {% if page.url == '/' %}
   <div id="left-section">
     <div class="marvel-device note8">
       <div class="inner"></div>
@@ -32,22 +33,29 @@
       <div class="volume"></div>
       <div class="camera"></div>
       <div class="screen">
-        <img src="https://files.serverboi.org/api/files/cat?path=%2FScreenshot_1682742769.png&share=img&size=1920"
-          width="400" height="822" />
+        <img src="https://github.com/JakeTurner616/app-website/blob/main/assets/Screenshot_1682742769.png?raw=true" width="400" height="822"/>
         <!-- Content goes here -->
       </div>
     </div>
   </div>
+
+  <noscript>
+    <style>
+      #left-section {
+        display: none;
+        visibility: hidden;
+      }
+    </style>
+  </noscript>
+
   <script>
     if (window.location.pathname === '/privacy.html') {
-      // Get the selector
-      const selector = document.querySelector('#left-section');
-      // Modify the CSS to hide the selector
-      selector.style.display = 'none';
-      selector.style.visibility = 'hidden';
+      const leftSection = document.querySelector('#left-section');
+      leftSection.style.display = 'none';
+      leftSection.style.visibility = 'hidden';
     }
-
   </script>
+{% endif %}
   <noscript>
     <style>
       #left-section {
