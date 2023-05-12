@@ -10,7 +10,7 @@ layout: default
 # Real Art AI
 
 ## Description
-[Real Art AI](https://play.google.com/store/apps/details?id=org.serverboi.RealArtAI) allows users to easily create stunning digital art. Using cutting-edge AI users can create personalized illustrations, or upload photos and transform them into completely unique digital art pieces. Real Art AI gives anybody the tools to pull off advanced AI art techniques such as face-morphing, face-swap, background-swap/replace, up-scaling, and image beautification all in one place.
+The [Real Art AI](https://play.google.com/store/apps/details?id=org.serverboi.RealArtAI) app allows users to easily create stunning digital art. Using cutting-edge AI users can create personalized illustrations, or upload photos and transform them into completely unique digital art pieces. Real Art AI gives anybody the tools to pull off advanced AI art techniques such as face-morphing, face-swap, background-swap/replace, up-scaling, and image beautification all in one place.
 
 ## Features
 
