@@ -48,18 +48,19 @@ body, html {
     background-color: #1b1b1b;
     max-height: 100%;
 }
-.marvel-device {
+  .marvel-device {
     opacity: 1;
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out !important;
   }
-  
-  @media only screen and (max-width: 768px) {
+
+  @media only screen and (max-width: 1450px) {
     .marvel-device {
       opacity: 0;
-      visibility: hidden;
-      transition: opacity 0.5s ease-in-out;
+      visibility: hidden !important;
+      transition: opacity 0.5s ease-in-out !important;
     }
   }
+
   
   .marvel-device {
     opacity: 1;
