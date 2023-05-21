@@ -19,6 +19,28 @@ We take appropriate measures to protect your information from unauthorized acces
 
 However, please note that no method of transmission over the internet or method of electronic storage is 100% secure. Therefore, while we strive to use commercially acceptable means to protect your information, we cannot guarantee its absolute security.
 
+Face data
+-------------------------------
+
+#### Collection of Face Data
+
+Real Art AI allows users to upload images containing their faces for basic re-constructive tasks using AI, such as colorization or editing. The uploaded image, which may include the user's face, along with the generated output image and the associated generation parameters, are sent to our server for processing.
+
+####  Use of Face Data:
+We utilize the collected face data, including the uploaded image, generated output image, and generation parameters, to optimize our service and improve the user experience. This analysis helps us understand how users interact with the app, identify usage patterns, and fine-tune parameter settings for future updates.
+
+#### Sharing of Face Data:
+We do not share face data with any third parties. The information is strictly used for internal analytics and service optimization purposes. We respect the privacy of our users and do not disclose face data to external entities.
+
+#### Retention of Face Data:
+The uploaded image, generated output image, and generation parameters are retained for a limited period of time on our server. The retention period is 60 days, after which the face data is deleted from our system. The retention period allows us to analyze and improve our app's functionality while ensuring that data is not stored longer than necessary.
+
+
+Data retention
+-------------------------------
+
+The application may periodically collect images their textual descriptions, and their generation settings soley for analytics and diagnostic purposes. The collected data is not shared with third parties and is solely used to improve the application's performance. To maintain privacy and minimize storage requirements, data is retained for 60 days and then deleted. This policy ensures compliance with data protection regulations and safeguards user information. Users agree to this policy, acknowledging that their data if saved to disk will be periodically deleted.
+
 Changes to Our Privacy Policy
 -----------------------------
 
