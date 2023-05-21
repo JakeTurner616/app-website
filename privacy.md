@@ -22,7 +22,7 @@ However, please note that no method of transmission over the internet or method 
 Face Fata
 -------------------------------
 
-#### Collection of Face Data
+#### Collection of Face Data:
 
 Real Art AI allows users to upload images containing their faces for basic re-constructive tasks using AI, such as colorization or editing. The uploaded image, which may include the user's face, along with the generated output image and the associated generation parameters, are sent to our server for processing.
 
