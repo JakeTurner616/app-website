@@ -19,7 +19,7 @@ We take appropriate measures to protect your information from unauthorized acces
 
 However, please note that no method of transmission over the internet or method of electronic storage is 100% secure. Therefore, while we strive to use commercially acceptable means to protect your information, we cannot guarantee its absolute security.
 
-Face Fata
+Face Data
 -------------------------------
 
 #### Collection of Face Data:
