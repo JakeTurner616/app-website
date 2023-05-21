@@ -41,6 +41,12 @@ Data Retention
 
 The application may periodically collect images their textual descriptions, and their generation settings soley for analytics and diagnostic purposes. The collected data is not shared with third parties and is solely used to improve the application's performance. To maintain privacy and minimize storage requirements, data is retained for 60 days and then deleted. This policy ensures compliance with data protection regulations and safeguards user information. Users agree to this policy, acknowledging that their data if saved to disk will be periodically deleted.
 
+Request Deletion
+-------------------------------
+
+Data when saved is automatically deleted after 60 days but if you want your data to be manually deleted, send me an email at jake@serverboi.org.
+
+
 Changes to Our Privacy Policy
 -----------------------------
 
