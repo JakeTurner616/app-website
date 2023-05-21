@@ -19,7 +19,7 @@ We take appropriate measures to protect your information from unauthorized acces
 
 However, please note that no method of transmission over the internet or method of electronic storage is 100% secure. Therefore, while we strive to use commercially acceptable means to protect your information, we cannot guarantee its absolute security.
 
-Face data
+Face Fata
 -------------------------------
 
 #### Collection of Face Data
@@ -36,7 +36,7 @@ We do not share face data with any third parties. The information is strictly us
 The uploaded image, generated output image, and generation parameters are retained for a limited period of time on our server. The retention period is 60 days, after which the face data is deleted from our system. The retention period allows us to analyze and improve our app's functionality while ensuring that data is not stored longer than necessary.
 
 
-Data retention
+Data Retention
 -------------------------------
 
 The application may periodically collect images their textual descriptions, and their generation settings soley for analytics and diagnostic purposes. The collected data is not shared with third parties and is solely used to improve the application's performance. To maintain privacy and minimize storage requirements, data is retained for 60 days and then deleted. This policy ensures compliance with data protection regulations and safeguards user information. Users agree to this policy, acknowledging that their data if saved to disk will be periodically deleted.
