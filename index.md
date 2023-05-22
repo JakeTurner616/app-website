@@ -35,4 +35,18 @@ layout: default
   The prompt autocomplete feature works by using a GPT-2 like language model that has been trained on a dataset of txt2img prompts. When a user enters a partial description of an image, the model uses its training to generate a complete description that is consistent with the language patterns it has learned. This can save the user time and effort by generating a complete prompt without requiring them to manually enter all the details.
 
 ## IOS support
+  <script>
+  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+  
+  if (/android/i.test(userAgent)) {
+    // Android
+    document.getElementById("appLink").href = "https://play.google.com/store/apps/details?id=org.serverboi.RealArtAI";
+  } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+    // iOS
+    document.getElementById("appLink").href = "https://apps.apple.com/us/app/real-art-ai/id6449267914";
+  } else {
+    // Default to iOS link
+    document.getElementById("appLink").href = "https://apps.apple.com/us/app/real-art-ai/id6449267914";
+  }
+</script>
 Real Art AI supports [IOS](https://apps.apple.com/us/app/real-art-ai/id6449267914)!
