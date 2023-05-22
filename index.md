@@ -2,6 +2,20 @@
 layout: default
 ---
 
+<script async>
+  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+  
+  if (/android/i.test(userAgent)) {
+    // Android
+    document.getElementById("appLink").href = "https://play.google.com/store/apps/details?id=org.serverboi.RealArtAI";
+  } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+    // iOS
+    document.getElementById("appLink").href = "https://apps.apple.com/us/app/real-art-ai/id6449267914";
+  } else {
+    // Default to iOS link
+    document.getElementById("appLink").href = "https://apps.apple.com/us/app/real-art-ai/id6449267914";
+  }
+</script>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/JakeTurner616/JakeTurner616.github.io/main/assets/img/banner.png" alt="banner"/>
@@ -26,7 +40,7 @@ layout: default
 
   Upscaling is a technique used to increase the resolution and improve the quality of an image or video. It works by analyzing the existing pixels in the image or video and using advanced algorithms to create new pixels that fill in the gaps between the existing ones. 
 
-- Denoising Strength
+- Denoising strength
 
   The denoising strength parameter in img2img is an essential tool that enables users to balance the trade-off between noise reduction and the preservation of image details. By adjusting the denoising strength parameter, users can customize the amount of noise reduction applied to the image, ensuring that the final output meets their specific needs and preferences.
 
@@ -34,19 +48,5 @@ layout: default
 
   The prompt autocomplete feature works by using a GPT-2 like language model that has been trained on a dataset of txt2img prompts. When a user enters a partial description of an image, the model uses its training to generate a complete description that is consistent with the language patterns it has learned. This can save the user time and effort by generating a complete prompt without requiring them to manually enter all the details.
 
-## IOS support
-  <script>
-  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
-  
-  if (/android/i.test(userAgent)) {
-    // Android
-    document.getElementById("appLink").href = "https://play.google.com/store/apps/details?id=org.serverboi.RealArtAI";
-  } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-    // iOS
-    document.getElementById("appLink").href = "https://apps.apple.com/us/app/real-art-ai/id6449267914";
-  } else {
-    // Default to iOS link
-    document.getElementById("appLink").href = "https://apps.apple.com/us/app/real-art-ai/id6449267914";
-  }
-</script>
-Real Art AI supports [IOS](https://apps.apple.com/us/app/real-art-ai/id6449267914)!
+## Cross platform support
+Real Art AI supports both [IOS](https://apps.apple.com/us/app/real-art-ai/id6449267914) and [Android](https://play.google.com/store/apps/details?id=org.serverboi.RealArtAI) phones!
