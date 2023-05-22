@@ -31,7 +31,20 @@
 
   {% seo %}
   {% include head-custom.html %}
-
+  <script>
+  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+  
+  if (/android/i.test(userAgent)) {
+    // Android
+    document.getElementById("appLink").href = "https://play.google.com/store/apps/details?id=org.serverboi.RealArtAI";
+  } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+    // iOS
+    document.getElementById("appLink").href = "https://apps.apple.com/us/app/real-art-ai/id6449267914";
+  } else {
+    // Default to iOS link
+    document.getElementById("appLink").href = "https://apps.apple.com/us/app/real-art-ai/id6449267914";
+  }
+</script>
 </head>
 
 <body>
