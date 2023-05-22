@@ -10,7 +10,7 @@ layout: default
 # Real Art AI
 
 ## Description
-The [Real Art AI](https://play.google.com/store/apps/details?id=org.serverboi.RealArtAI) app allows users to easily create stunning digital art. Using cutting-edge AI users can create personalized illustrations, or upload photos and transform them into completely unique digital art pieces. Real Art AI gives anybody the tools to pull off advanced AI art techniques such as face-morphing, face-swap, background-swap/replace, up-scaling, and image beautification all in one place.
+<p>The <a id="appLink" href="#">Real art AI</a> app allows users to easily create stunning digital art. Using cutting-edge AI users can create personalized illustrations, or upload photos and transform them into completely unique digital art pieces. Real Art AI gives anybody the tools to pull off advanced AI art techniques such as face-morphing, face-swap, background-swap/replace, up-scaling, and image beautification all in one place.</p>
 
 ## Features
 
@@ -35,4 +35,4 @@ The [Real Art AI](https://play.google.com/store/apps/details?id=org.serverboi.Re
   The prompt autocomplete feature works by using a GPT-2 like language model that has been trained on a dataset of txt2img prompts. When a user enters a partial description of an image, the model uses its training to generate a complete description that is consistent with the language patterns it has learned. This can save the user time and effort by generating a complete prompt without requiring them to manually enter all the details.
 
 ## IOS support
-Real Art AI can only be installed on the [Google Play Store](https://play.google.com/store/apps/details?id=org.serverboi.RealArtAI) as of now. The app is written with cross-platform code, and will be ported over to IOS in the near future.
+Real Art AI supports [IOS](https://apps.apple.com/us/app/real-art-ai/id6449267914)!
