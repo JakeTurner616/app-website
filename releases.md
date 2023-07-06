@@ -10,7 +10,7 @@
 
    th, td {
       padding: 8px;
-      text-align: center;
+      text-align: left;
       white-space: nowrap;
       border-bottom: 1px solid #ddd;
    }
