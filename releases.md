@@ -22,7 +22,7 @@
    }
 </style>
 
-## Android
+## IOS
 
 <table>
    <thead>
@@ -55,7 +55,7 @@
    </tbody>
 </table>
 
-## iOS
+## Android
 
 <table>
    <thead>
