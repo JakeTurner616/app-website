@@ -34,7 +34,12 @@ layout: default
 
   The prompt autocomplete feature works by using a GPT-2 like language model that has been trained on a dataset of txt2img prompts. When a user enters a partial description of an image, the model uses its training to generate a complete description that is consistent with the language patterns it has learned. This can save the user time and effort by generating a complete prompt without requiring them to manually enter all the details.
 
+- AI painting
+  AI painting is a process where the user selects a specific area in an image, and an algorithm trained on image reconstruction adds finely placed details within that selection. It combines the user's artistic input with the algorithm's learning to enhance the artwork with intricate elements.
+
 ## Cross platform support
+Real Art AI supports both [IOS](https://apps.apple.com/us/app/real-art-ai/id6449267914) and [Android](https://play.google.com/store/apps/details?id=org.serverboi.RealArtAI) phones!
+
 <script>
   var userAgent = navigator.userAgent || navigator.vendor || window.opera;
   
@@ -48,5 +53,16 @@ layout: default
     // Default to iOS link
     document.getElementById("appLink").href = "https://apps.apple.com/us/app/real-art-ai/id6449267914";
   }
+
 </script>
-Real Art AI supports both [IOS](https://apps.apple.com/us/app/real-art-ai/id6449267914) and [Android](https://play.google.com/store/apps/details?id=org.serverboi.RealArtAI) phones!
+
+>  Lines with a * are used to indicate an un-released/un-published build.
+
+| Platform | Release | txt2img | img2img | inpaint | Prompt Fill | Release Notes                                   |
+|----------|---------|---------|---------|---------|-------------|-------------------------------------------------|
+| IOS      | 1.0.0   | ✅      | ✅      | ❌      | ✅          | - Initial release.                              |
+| IOS      | 1.1.0   | ✅      | ✅      | ✅      | ✅          | - Added support for inpaint feature. Bug and UI fixes. |
+| Android  | 1.0.0   | ✅      | ✅      | ❌      | ✅          | - Initial release.                              |
+| Android  | 1.1.0   | ✅      | ✅      | ❌      | ✅          | - Bug and UI fixes.                             |
+| Android  | 1.2.0   | ✅      | ✅      | ✅      | ✅          | - Added support for inpaint feature. Bug and UI fixes. |
+| Android  | *1.3.0  | ✅      | ✅      | ✅      | ✅          | - UMP added, ad state fixes, and paint canvas fixes. |
