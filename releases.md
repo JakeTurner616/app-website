@@ -1,15 +1,86 @@
 # Releases
+# Releases
 
 ## IOS
 
-| Platform | Release | txt2img | img2img | inpaint | Prompt Fill | Release Notes                                   |
-|----------|---------|---------|---------|---------|-------------|-------------------------------------------------|
-| IOS      | 1.0.0   | ✅      | ✅      | ❌      | ✅          | - Initial release.                              |
-| IOS      | 1.1.0   | ✅      | ✅      | ✅      | ✅          | - Added support for inpaint feature. Bug and UI fixes. |
+<table>
+   <thead>
+      <tr>
+         <th>Release</th>
+         <th>txt2img</th>
+         <th>img2img</th>
+         <th>inpaint</th>
+         <th>Prompt Fill</th>
+         <th>Release Notes</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>1.0.0</td>
+         <td>✅</td>
+         <td>✅</td>
+         <td>❌</td>
+         <td>✅</td>
+         <td>- Initial release.</td>
+      </tr>
+      <tr>
+         <td>1.1.0</td>
+         <td>✅</td>
+         <td>✅</td>
+         <td>✅</td>
+         <td>✅</td>
+         <td>- Added support for inpaint feature. Bug and UI fixes.</td>
+      </tr>
+   </tbody>
+</table>
+
 
 ## Android
 
-| Android  | 1.0.0   | ✅      | ✅      | ❌      | ✅          | - Initial release.                              |
-| Android  | 1.1.0   | ✅      | ✅      | ❌      | ✅          | - Bug and UI fixes.                             |
-| Android  | 1.2.0   | ✅      | ✅      | ✅      | ✅          | - Added support for inpaint feature. Bug and UI fixes. |
-| Android  | 1.3.0  | ✅      | ✅      | ✅      | ✅          | - UMP added, ad state fixes, and paint canvas fixes. |
+<table>
+   <thead>
+      <tr>
+         <th>Release</th>
+         <th>txt2img</th>
+         <th>img2img</th>
+         <th>inpaint</th>
+         <th>Prompt Fill</th>
+         <th>Release Notes</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>1.0.0</td>
+         <td>✅</td>
+         <td>✅</td>
+         <td>❌</td>
+         <td>✅</td>
+         <td>- Initial release.</td>
+      </tr>
+      <tr>
+         <td>1.1.0</td>
+         <td>✅</td>
+         <td>✅</td>
+         <td>❌</td>
+         <td>✅</td>
+         <td>- Bug and UI fixes.</td>
+      </tr>
+      <tr>
+         <td>1.2.0</td>
+         <td>✅</td>
+         <td>✅</td>
+         <td>✅</td>
+         <td>✅</td>
+         <td>- Added support for inpaint feature. Bug and UI fixes.</td>
+      </tr>
+      <tr>
+         <td>1.3.0</td>
+         <td>✅</td>
+         <td>✅</td>
+         <td>✅</td>
+         <td>✅</td>
+         <td>- UMP added, ad state fixes, and paint canvas fixes.</td>
+      </tr>
+   </tbody>
+</table>
+
