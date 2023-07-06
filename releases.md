@@ -1,5 +1,3 @@
-# Releases
-
 <style>
    table tbody tr:nth-child(2n+1) {
       background-color: rgba(42, 47, 53, 0.52);
@@ -12,7 +10,8 @@
 
    th, td {
       padding: 8px;
-      text-align: left;
+      text-align: center;
+      white-space: nowrap;
       border-bottom: 1px solid #ddd;
    }
 
@@ -21,7 +20,7 @@
    }
 </style>
 
-##Android
+## Android
 
 <table>
    <thead>
@@ -54,7 +53,7 @@
    </tbody>
 </table>
 
-##iOS
+## iOS
 
 <table>
    <thead>
