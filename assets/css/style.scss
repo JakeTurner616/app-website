@@ -8,6 +8,17 @@
   background: none;
   background-color: #1b1b1b;
 }
+table {
+  margin: 10px;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 1em;
