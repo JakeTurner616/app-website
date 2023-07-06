@@ -1,6 +1,10 @@
 # Releases
 
 <style>
+   table tbody tr:nth-child(2n+1) {
+      background-color: rgba(42, 47, 53, 0.52);
+   }
+   
    table {
       width: 100%;
       border-collapse: collapse;
@@ -13,15 +17,11 @@
    }
 
    th {
-      background-color: #f2f2f2;
-   }
-
-   tbody tr:hover {
-      background-color: #f5f5f5;
+      white-space: nowrap;
    }
 </style>
 
-<h2>Android</h2>
+##Android
 
 <table>
    <thead>
@@ -54,7 +54,7 @@
    </tbody>
 </table>
 
-<h2>iOS</h2>
+##iOS
 
 <table>
    <thead>
@@ -102,5 +102,3 @@
       </tr>
    </tbody>
 </table>
-
-
