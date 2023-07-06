@@ -1,7 +1,6 @@
 # Releases
-# Releases
 
-## IOS
+<h2>Android</h2>
 
 <table>
    <thead>
@@ -34,8 +33,7 @@
    </tbody>
 </table>
 
-
-## Android
+<h2>iOS</h2>
 
 <table>
    <thead>
@@ -83,4 +81,5 @@
       </tr>
    </tbody>
 </table>
+
 
