@@ -52,6 +52,14 @@
          <td>✅</td>
          <td>- Added support for inpaint feature. Bug and UI fixes.</td>
       </tr>
+      <tr>
+         <td>1.2.0</td>
+         <td>✅</td>
+         <td>✅</td>
+         <td>✅</td>
+         <td>✅</td>
+         <td>- Merged with Andriod release 1.3.0.</td>
+      </tr>
    </tbody>
 </table>
 
